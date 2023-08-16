@@ -1,0 +1,54 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.rap{
+    display: flex;
+    flex-direction: column;
+    gap: 3vw;
+    align-items: center;
+}
+
+#section{
+    display: flex;
+    gap: 3vw;
+}
+
+.butt{
+    width: 10vw;
+    height: 10vw;
+    border: 2px solid black;
+    border-radius: 5px;
+}
+
+#gray{
+    background-color: gray;
+}
+
+#white{
+    background-color: white;
+}
+
+#blue{
+    background-color: blue;
+}
+
+#yellow{
+    background-color: yellow;
+}
+
+#red{
+    background-color: red;
+}
